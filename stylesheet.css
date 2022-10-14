@@ -35,3 +35,8 @@
 #orders tbody > tr:nth-child(odd){
     background-color: #c4dcf3 ;
 }
+
+/* Took about 20 minutes. Most of time was looking for the various css styles that I 
+had to apply to make it look similar, the padding especially. I had to ask a neighbor
+for how to do the nth-child selecter, and realized that my problem was that I mistakenly
+put a space after tr without a colon */

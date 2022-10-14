@@ -1,0 +1,14 @@
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid magenta;
+    background-color: magenta;
+    margin: auto;
+    box-shadow: 10px 10px rgb(211, 211, 211);
+    border-radius: 5%;
+}   
+
+/* This took around 10 minutes. I looked back at a previous lab as we had done boxes
+before and I had no idea where to start. Then I looked up the various properties 
+of the pictured box and tried to apply them to mine. Everything went smoothly 
+except the box shadow, which I had to tinker with a bit to get the right transparency.*/
