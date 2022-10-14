@@ -2,16 +2,36 @@
     border-spacing: 0px;
 }
 
-#orders thead{
+#orders thead, tfoot{
     background-color: #427fef;
     font-size: large;
+    color: white;
+
 }
+
+#orders tr > td{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+
+#orders tbody > tr > td{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
 
 #orders th{
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
 }
 
+#orders tbody > tr:nth-child(odd){
+    background-color: #c4dcf3 ;
+}
